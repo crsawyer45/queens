@@ -7,7 +7,7 @@
 
 using namespace std;
 int board[40][40];
-int columns[40];
+int columns[40]; //keeps track of which columns have a queen in them to reduce run time for larger numbers
 
 bool checkDiag(int r, int c) {
   for (int i = r; i >= 0; i--){
