@@ -47,7 +47,7 @@ void placeQueen(int size, int &solutions, int row){
   }
 }
 
-int main(int argc, char **argv) { // while loop that calls the recursion not for loop
+int main(int argc, char **argv) {
 
   int size = atoi(argv[1]);
   int solutions = 0;
